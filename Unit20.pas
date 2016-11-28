@@ -1,0 +1,68 @@
+unit Unit20;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls;
+
+type
+  TForm20 = class(TForm)
+    Label1: TLabel;
+    RadioGroup1: TRadioGroup;
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form20: TForm20;
+  b4:real;
+implementation
+
+uses Unit21;
+
+{$R *.dfm}
+
+procedure TForm20.Button1Click(Sender: TObject);
+begin
+case RadioGroup1.ItemIndex of
+  0:
+  begin
+   b4:=0;
+  Form21.show;
+  Form20.Close;
+  end;
+  1:
+  begin
+    b4:=0;
+  Form21.show;
+  Form20.Close;
+  end;
+  2:
+  begin
+   b4:=0;
+  Form21.show;
+  Form20.Close;
+  end;
+  3:
+  begin
+   b4:=0;
+  Form21.show;
+  Form20.Close;
+  end;
+  4:
+
+  begin
+   b4:=20;
+  Form21.show;
+  Form20.Close;
+  end;
+
+end;
+end;
+
+end.

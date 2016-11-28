@@ -1,0 +1,54 @@
+object Form14: TForm14
+  Left = 285
+  Top = 164
+  Width = 696
+  Height = 480
+  Caption = 'Form14'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 32
+    Top = 72
+    Width = 373
+    Height = 35
+    Caption = 'Pergunta 5/5: Level 2'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Snap ITC'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 144
+    Top = 176
+    Width = 441
+    Height = 217
+    Caption = 
+      '--------------------------------------------A palavra "VIP" sign' +
+      'ifica: '
+    Items.Strings = (
+      '"Very Important Person"'
+      '"Very Imponent Person"'
+      '"Very In Paris"'
+      '"Visit Institute Pisych"'
+      '"Viu In Pizza"')
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 376
+    Top = 256
+    Width = 145
+    Height = 65
+    Caption = 'Avante'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+end

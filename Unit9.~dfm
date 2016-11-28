@@ -1,0 +1,38 @@
+object Form9: TForm9
+  Left = 263
+  Top = 166
+  Width = 696
+  Height = 480
+  Caption = 'Form9'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 64
+    Top = 72
+    Width = 572
+    Height = 35
+    Caption = 'ZONA 2: O Meio '#233' sempre o do meio!'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Snap ITC'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 264
+    Top = 224
+    Width = 169
+    Height = 81
+    Caption = 'Avante'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+end

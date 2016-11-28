@@ -1,0 +1,52 @@
+object Form10: TForm10
+  Left = 209
+  Top = 239
+  Width = 696
+  Height = 480
+  Caption = 'Form10'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 40
+    Top = 40
+    Width = 367
+    Height = 37
+    Caption = 'Pergunta 1/5: Level 2'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -29
+    Font.Name = 'Snap ITC'
+    Font.Style = []
+    ParentFont = False
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 152
+    Top = 160
+    Width = 401
+    Height = 233
+    Caption = 'O que significa a sigla WWW?'
+    Items.Strings = (
+      'World Wide Web'
+      'Word Work Web'
+      'Wold Wide Wibe'
+      'Wibe Wolrd  Work'
+      'Web Woud  Wald')
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 392
+    Top = 256
+    Width = 113
+    Height = 65
+    Caption = 'Avante'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+end
