@@ -1,10 +1,10 @@
 object Form18: TForm18
-  Left = 161
-  Top = 161
-  Width = 696
-  Height = 480
+  Left = -4
+  Top = -4
+  Width = 808
+  Height = 578
   Caption = 'Form18'
-  Color = clBtnFace
+  Color = clGreen
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -14,10 +14,10 @@ object Form18: TForm18
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 32
-    Top = 40
-    Width = 410
-    Height = 31
+    Left = 168
+    Top = 96
+    Width = 302
+    Height = 27
     Caption = 'Pergunta 2/5: Level 3 FINAL'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
@@ -27,7 +27,7 @@ object Form18: TForm18
     ParentFont = False
   end
   object RadioGroup1: TRadioGroup
-    Left = 128
+    Left = 168
     Top = 144
     Width = 441
     Height = 249
@@ -43,10 +43,10 @@ object Form18: TForm18
     TabOrder = 0
   end
   object Button1: TButton
-    Left = 352
-    Top = 240
-    Width = 137
-    Height = 73
+    Left = 376
+    Top = 248
+    Width = 113
+    Height = 41
     Caption = 'Avante'
     TabOrder = 1
     OnClick = Button1Click

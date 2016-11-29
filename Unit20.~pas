@@ -28,41 +28,41 @@ uses Unit21;
 {$R *.dfm}
 
 procedure TForm20.Button1Click(Sender: TObject);
-begin
-case RadioGroup1.ItemIndex of
-  0:
-  begin
-   b4:=0;
-  Form21.show;
-  Form20.Close;
-  end;
-  1:
-  begin
-    b4:=0;
-  Form21.show;
-  Form20.Close;
-  end;
-  2:
-  begin
-   b4:=0;
-  Form21.show;
-  Form20.Close;
-  end;
-  3:
-  begin
-   b4:=0;
-  Form21.show;
-  Form20.Close;
-  end;
-  4:
 
-  begin
-   b4:=20;
-  Form21.show;
-  Form20.Close;
-  end;
+    begin
 
-end;
-end;
+        case RadioGroup1.ItemIndex of
+
+              0:
+              begin
+               b4:=10;
+              end;
+
+              1:
+              begin
+              	b4:=0;
+              end;
+
+              2:
+              begin
+                b4:=0;
+              end;
+
+              3:
+              begin
+        				b4:=0;
+              end;
+
+              4:
+              begin
+              	b4:=0;
+              end;
+
+        end;
+
+    	RadioGroup1.ItemIndex:= -1;
+      Form16.pergunta;
+      Form20.Close;
+    end;
 
 end.

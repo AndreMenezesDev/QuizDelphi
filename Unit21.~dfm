@@ -1,10 +1,10 @@
 object Form21: TForm21
-  Left = 284
-  Top = 206
-  Width = 696
-  Height = 480
+  Left = -4
+  Top = -4
+  Width = 808
+  Height = 578
   Caption = 'Form21'
-  Color = clBtnFace
+  Color = clGreen
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -14,8 +14,8 @@ object Form21: TForm21
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 40
-    Top = 48
+    Left = 160
+    Top = 104
     Width = 361
     Height = 27
     Caption = 'Pergunta 5/5: Level 3 FINAL'
@@ -27,8 +27,8 @@ object Form21: TForm21
     ParentFont = False
   end
   object RadioGroup1: TRadioGroup
-    Left = 120
-    Top = 144
+    Left = 160
+    Top = 152
     Width = 489
     Height = 217
     Caption = 
@@ -43,10 +43,10 @@ object Form21: TForm21
     TabOrder = 0
   end
   object Button1: TButton
-    Left = 352
-    Top = 232
-    Width = 153
-    Height = 65
+    Left = 424
+    Top = 248
+    Width = 121
+    Height = 41
     Caption = 'Avante'
     TabOrder = 1
     OnClick = Button1Click

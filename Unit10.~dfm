@@ -1,10 +1,10 @@
 object Form10: TForm10
-  Left = 209
-  Top = 239
-  Width = 696
-  Height = 480
+  Left = -4
+  Top = -4
+  Width = 808
+  Height = 578
   Caption = 'Form10'
-  Color = clBtnFace
+  Color = clGreen
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -14,8 +14,8 @@ object Form10: TForm10
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 40
-    Top = 40
+    Left = 168
+    Top = 96
     Width = 367
     Height = 37
     Caption = 'Pergunta 1/5: Level 2'
@@ -27,7 +27,7 @@ object Form10: TForm10
     ParentFont = False
   end
   object RadioGroup1: TRadioGroup
-    Left = 152
+    Left = 168
     Top = 160
     Width = 401
     Height = 233
@@ -41,10 +41,10 @@ object Form10: TForm10
     TabOrder = 0
   end
   object Button1: TButton
-    Left = 392
-    Top = 256
-    Width = 113
-    Height = 65
+    Left = 400
+    Top = 264
+    Width = 105
+    Height = 41
     Caption = 'Avante'
     TabOrder = 1
     OnClick = Button1Click

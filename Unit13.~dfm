@@ -1,10 +1,10 @@
 object Form13: TForm13
-  Left = 268
-  Top = 202
-  Width = 696
-  Height = 480
+  Left = -4
+  Top = -4
+  Width = 808
+  Height = 578
   Caption = 'Form13'
-  Color = clBtnFace
+  Color = clGreen
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -14,8 +14,8 @@ object Form13: TForm13
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 40
-    Top = 48
+    Left = 184
+    Top = 96
     Width = 311
     Height = 31
     Caption = 'Pergunta 4/5: Level 2'
@@ -27,7 +27,7 @@ object Form13: TForm13
     ParentFont = False
   end
   object RadioGroup1: TRadioGroup
-    Left = 152
+    Left = 184
     Top = 144
     Width = 393
     Height = 257
@@ -43,10 +43,10 @@ object Form13: TForm13
     TabOrder = 0
   end
   object Button1: TButton
-    Left = 352
-    Top = 256
-    Width = 121
-    Height = 65
+    Left = 360
+    Top = 248
+    Width = 113
+    Height = 41
     Caption = 'Avante'
     TabOrder = 1
     OnClick = Button1Click

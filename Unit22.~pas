@@ -31,20 +31,20 @@ uses Unit17, Unit18, Unit19, Unit20, Unit21, Unit23, Unit16;
 {$R *.dfm}
 
 procedure TForm22.Button1Click(Sender: TObject);
-begin
+        begin
 
-resultado:=(b1+b2+b3+b4+b5);
-Label1.caption:=floattostr(resultado);
- if resultado=100 then
-  begin
-  Button2.enabled:=true;
-  showmessage('PARABÉNS!! VOCÊ  ACERTOU TODAS AS PERGUNTAS FINALMENTE!! OLHE SEU PRÊMIO');
-  end
-  else
-  begin
-  Button2.enabled:=false;
-  showmessage('Seu burro!! para passar parao próximo nivel você tem que ser mais inteligente!!!')
-  end;
+        resultado:=(b1+b2+b3+b4+b5);
+        Label1.caption:=floattostr(resultado);
+         if resultado=100 then
+         		begin
+              Button2.enabled:=true;
+              Application.MessageBox('PARABÉNS! UM VENCEDOR!','FINALMENTE UM GANHADOR',MB_ICONINFORMATION);
+            end
+         else
+            begin
+              Button2.enabled:=false;
+              Application.MessageBox('Que pena! Você errou alguma questão, tenta mais uma vez!','Você perdeu',MB_ICONSTOP);
+          end;
 end;
 
 procedure TForm22.Button2Click(Sender: TObject);

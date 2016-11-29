@@ -48,6 +48,8 @@ end;
 
 procedure TForm8.Button2Click(Sender: TObject);
 begin
+
+Form2.reiniciar();
 Form9.show;
 form8.close;
 end;

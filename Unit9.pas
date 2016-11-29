@@ -4,13 +4,16 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls;
+  Dialogs, StdCtrls, Math;
 
 type
   TForm9 = class(TForm)
     Label1: TLabel;
     Button1: TButton;
     procedure Button1Click(Sender: TObject);
+    procedure pergunta();
+    procedure reiniciar();
+
   private
     { Private declarations }
   public
@@ -19,17 +22,113 @@ type
 
 var
   Form9: TForm9;
+  x: integer;
+  v1,v2,v3,v4,v5,controle: Boolean;
 
 implementation
 
-uses Unit10;
+uses Unit10, Unit11, Unit12, Unit13, Unit14, Unit15;
 
 {$R *.dfm}
 
 procedure TForm9.Button1Click(Sender: TObject);
 begin
-Form10.show;
-form9.close;
+	reiniciar;
+	pergunta;
 end;
+
+
+procedure TForm9.pergunta();
+ begin
+ controle:=true;
+
+    x:= RandomRange(0,5);
+
+   if (v1=false) and (v2=false) and (v3=false) and (v4=false) and (v5=false) then
+     		begin
+         Form15.Show;
+
+      	 end
+   else
+   	begin
+
+ 		 	case x of
+
+		 	 0:
+ 				 begin
+      	   if v1 then
+     	    	begin
+     		     controle:=false;
+   	 		 		 Form10.show;
+ 	 		   	   Form9.Close;
+     	   	   v1:=false;
+   	        end;
+
+       end;
+
+ 		  1:
+		 	 begin
+
+					if v2 then
+         	begin
+          controle:=false;
+   	  		 Form11.show;
+ 	 	   	   Form9.Close;
+           v2:=false;
+          end;
+
+ 			 end;
+
+		  2:
+ 			 begin
+         if v3 then
+         	begin
+          controle:=false;
+   	  		 Form12.show;
+ 	 	   	   Form9.Close;
+           v3:=false;
+          end;
+        end ;
+
+      3:
+ 			 begin
+ 			  if v4 then
+         	begin
+          controle:=false;
+   	  		 Form13.show;
+ 	 	   	   Form9.Close;
+           v4:=false;
+          end;
+        end;
+
+      4:
+		 	 	begin
+ 			 	  if v5 then
+  	       	begin
+  	 	       controle:=false;
+   		  		 Form14.show;
+ 	 		   	   Form9.Close;
+    	       v5:=false;
+    	      end;
+  	     end;
+
+     end;
+
+     if controle then
+     	begin
+      	pergunta;
+      end;
+
+      end;
+ end;
+
+procedure TForm9.reiniciar();
+  begin
+     v1:=true;
+     v2:=true;
+     v3:=true;
+     v4:=true;
+     v5:=true;
+  end;
 
 end.

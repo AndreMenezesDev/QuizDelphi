@@ -27,8 +27,7 @@ type
 var
   Form2: TForm2;
   x: integer;
-  v1,v2,v3,v4,v5: Boolean;
-  controle: Boolean;
+  v1,v2,v3,v4,v5,controle: Boolean;
 
 implementation
 
@@ -58,28 +57,28 @@ end;
 
     x:= RandomRange(0,5);
 
-    if (v1=false) and (v2=false) and (v3=false) and (v4=false) and (v5=false) then
-     	begin
+   if (v1=false) and (v2=false) and (v3=false) and (v4=false) and (v5=false) then
+     		begin
          Form8.Show;
 
-       end
-       else
-       	begin
-       
-      //ShowMessage(IntToStr(x));
+      	 end
+   else
+   	begin
+
  		 	case x of
 
 		 	 0:
- 			 begin
-         if v1 then
-         	begin
-          controle:=false;
-   	  		 Form3.show;
- 	 	   	   Form2.Close;
-           v1:=false;
-          end;
+ 				 begin
+      	   if v1 then
+     	    	begin
+     		     controle:=false;
+   	 		 		 Form3.show;
+ 	 		   	   Form2.Close;
+     	   	   v1:=false;
+   	        end;
 
        end;
+
  		  1:
 		 	 begin
 
@@ -103,7 +102,8 @@ end;
            v3:=false;
           end;
         end ;
-		 	 3:
+
+      3:
  			 begin
  			  if v4 then
          	begin
@@ -113,23 +113,23 @@ end;
            v4:=false;
           end;
         end;
- 			 4:
-	 	 	begin
- 		 	  if v5 then
-         	begin
-          controle:=false;
-   	  		 Form7.show;
- 	 	   	   Form2.Close;
-           v5:=false;
-          end;
-        end;
 
+      4:
+		 	 	begin
+ 			 	  if v5 then
+  	       	begin
+  	 	       controle:=false;
+   		  		 Form7.show;
+ 	 		   	   Form2.Close;
+    	       v5:=false;
+    	      end;
+  	     end;
 
      end;
 
      if controle then
      	begin
-      	pergunta
+      	pergunta;
       end;
 
       end;

@@ -31,19 +31,21 @@ uses Unit10, Unit11, Unit12, Unit13, Unit14, Unit9, Unit16;
 {$R *.dfm}
 
 procedure TForm15.Button1Click(Sender: TObject);
+
 begin
-resultado:=(a1+a2+a3+a4+a5);
-Label1.caption:=floattostr(resultado);
- if resultado=50 then
-  begin
-  Button2.enabled:=true;
-  showmessage('PARABÉNS!! VOCÊ PASSOU PARA O ÚLTIMO NÍVEL');
-  end
-  else
-  begin
-  Button2.enabled:=false;
-  showmessage('Seu burro!! para passar para o próximo nivel você tem que ser mais inteligente!!!')
-  end;
+    resultado:=(a1+a2+a3+a4+a5);
+    Label1.caption:=floattostr(resultado);
+
+       if resultado=50 then
+          begin
+            Button2.enabled:=true;
+            Application.MessageBox('PARABÉNS!! VOCÊ PASSOU PARA O ÚLTIMO NÍVEL','VOCÊ ACERTOU TUDO',MB_ICONINFORMATION);
+          end
+       else
+          begin
+            Button2.enabled:=false;
+            Application.MessageBox('Que pena! Você errou alguma questão, tenta mais uma vez!','Você perdeu',MB_ICONSTOP);
+          end;
 
 
 end;

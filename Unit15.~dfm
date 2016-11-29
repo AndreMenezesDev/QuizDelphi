@@ -16,7 +16,7 @@ object Form15: TForm15
   object Label1: TLabel
     Left = 360
     Top = 144
-    Width = 41
+    Width = 5
     Height = 24
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -43,5 +43,14 @@ object Form15: TForm15
     Enabled = False
     TabOrder = 1
     OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 312
+    Top = 296
+    Width = 129
+    Height = 49
+    Caption = 'tentar novamente'
+    TabOrder = 2
+    OnClick = Button3Click
   end
 end

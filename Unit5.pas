@@ -34,7 +34,7 @@ case RadioGroup1.ItemIndex of
 
   0:
   begin
-    c:=0;
+    c:=5;
   end;
 
   1:
@@ -49,7 +49,7 @@ case RadioGroup1.ItemIndex of
 
   3:
   begin
-     c:=5;
+     c:=0;
   end;
 
   4:

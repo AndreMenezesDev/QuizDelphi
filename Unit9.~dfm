@@ -1,10 +1,10 @@
 object Form9: TForm9
-  Left = 263
-  Top = 166
-  Width = 696
-  Height = 480
+  Left = -4
+  Top = -4
+  Width = 808
+  Height = 578
   Caption = 'Form9'
-  Color = clBtnFace
+  Color = clGreen
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -14,8 +14,8 @@ object Form9: TForm9
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 64
-    Top = 72
+    Left = 168
+    Top = 104
     Width = 572
     Height = 35
     Caption = 'ZONA 2: O Meio '#233' sempre o do meio!'
@@ -27,10 +27,10 @@ object Form9: TForm9
     ParentFont = False
   end
   object Button1: TButton
-    Left = 264
-    Top = 224
-    Width = 169
-    Height = 81
+    Left = 320
+    Top = 272
+    Width = 153
+    Height = 49
     Caption = 'Avante'
     TabOrder = 0
     OnClick = Button1Click

@@ -23,46 +23,46 @@ var
    b3:real;
 implementation
 
-uses Unit20;
+uses Unit16;
 
 {$R *.dfm}
 
 procedure TForm19.Button1Click(Sender: TObject);
-begin
-case RadioGroup1.ItemIndex of
-  0:
-  begin
-   b3:=0;
-  Form20.show;
-  Form19.Close;
-  end;
-  1:
-  begin
-    b3:=0;
-  Form20.show;
-  Form19.Close;
-  end;
-  2:
-  begin
-   b3:=20;
-  Form20.show;
-  Form19.Close;
-  end;
-  3:
-  begin
-   b3:=0;
-  Form20.show;
-  Form19.Close;
-  end;
-  4:
 
-  begin
-   b3:=0;
-  Form20.show;
-  Form19.Close;
-  end;
+    begin
 
-end;
-end;
+        case RadioGroup1.ItemIndex of
+
+              0:
+              begin
+               b3:=20;
+              end;
+
+              1:
+              begin
+              	b3:=0;
+              end;
+
+              2:
+              begin
+                b3:=0;
+              end;
+
+              3:
+              begin
+        				b3:=0;
+              end;
+
+              4:
+              begin
+              	b3:=0;
+              end;
+
+        end;
+
+    	RadioGroup1.ItemIndex:= -1;
+      Form16.pergunta;
+      Form19.Close;
+    end;
 
 end.
