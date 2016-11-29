@@ -1,6 +1,6 @@
 object Form17: TForm17
-  Left = -4
-  Top = -4
+  Left = -7
+  Top = 0
   Width = 808
   Height = 578
   Caption = 'Form17'
@@ -11,43 +11,51 @@ object Form17: TForm17
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
+  Position = poMainFormCenter
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 168
-    Top = 112
-    Width = 240
-    Height = 22
-    Caption = 'Pergunta 1/5: Level 3 FINAL'
+    Left = 272
+    Top = 88
+    Width = 244
+    Height = 26
+    Caption = '3'#186' Level - Pergunta'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
-    Font.Name = 'Snap ITC'
+    Font.Name = 'Ravie'
     Font.Style = []
     ParentFont = False
   end
-  object RadioGroup1: TRadioGroup
-    Left = 168
-    Top = 160
+  object RadioGroup2: TRadioGroup
+    Left = 176
+    Top = 152
     Width = 449
-    Height = 249
-    Caption = 
-      '-------------------------------Qual '#233' a '#250'nica letra que n'#227'o apar' +
-      'ece na tebela peri'#243'dica?'
+    Height = 297
+    BiDiMode = bdLeftToRight
+    Caption = '3'#186' Level - Pergunta'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
     Items.Strings = (
-      'J'
-      'W'
-      'P'
-      'U'
-      'X')
+      'Hitller'
+      'Get'#250'lio Vargas mesmo'
+      'Uma amante'
+      'Fidel Castro'
+      'Bush'
+      'Um amigo')
+    ParentBiDiMode = False
+    ParentFont = False
     TabOrder = 0
   end
-  object Button1: TButton
-    Left = 392
-    Top = 272
-    Width = 97
-    Height = 33
-    Caption = 'Avante'
+  object Button2: TButton
+    Left = 488
+    Top = 264
+    Width = 129
+    Height = 49
+    Caption = 'OK'
     TabOrder = 1
     OnClick = Button1Click
   end

@@ -1,6 +1,6 @@
 object Form5: TForm5
-  Left = 551
-  Top = 236
+  Left = 23
+  Top = 140
   Width = 808
   Height = 578
   Caption = 'Form5'
@@ -15,43 +15,46 @@ object Form5: TForm5
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 176
-    Top = 96
-    Width = 263
-    Height = 36
-    Caption = 'Pergunta 3/5: Level1'
+    Left = 272
+    Top = 88
+    Width = 238
+    Height = 26
+    Caption = '1'#186' Level - Pergunta'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -27
-    Font.Name = 'Kristen ITC'
+    Font.Height = -19
+    Font.Name = 'Ravie'
     Font.Style = []
     ParentFont = False
   end
-  object RadioGroup1: TRadioGroup
+  object RadioGroup2: TRadioGroup
     Left = 176
-    Top = 160
-    Width = 417
-    Height = 249
-    Caption = 'Qual  n'#250'mero complementa a seq'#252#234'ncia: 2,10,12,...,17?'
+    Top = 152
+    Width = 449
+    Height = 297
+    BiDiMode = bdLeftToRight
+    Caption = 'Quem matou Get'#250'lio Vargas?'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Arial Black'
-    Font.Style = []
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
     Items.Strings = (
-      '13'
-      '14'
-      '15'
-      '16'
-      '3')
+      'Hitller'
+      'Get'#250'lio Vargas mesmo'
+      'Uma amante'
+      'Fidel Castro'
+      'Bush'
+      'Um amigo')
+    ParentBiDiMode = False
     ParentFont = False
     TabOrder = 0
   end
-  object Button1: TButton
-    Left = 360
-    Top = 256
+  object Button2: TButton
+    Left = 488
+    Top = 264
     Width = 129
-    Height = 57
+    Height = 49
     Caption = 'Next'
     TabOrder = 1
     OnClick = Button1Click

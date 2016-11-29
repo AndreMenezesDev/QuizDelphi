@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls;
+  Dialogs, StdCtrls, MMSystem;
 
 type
   TForm22 = class(TForm)
@@ -39,6 +39,7 @@ procedure TForm22.Button1Click(Sender: TObject);
          		begin
               Button2.enabled:=true;
               Application.MessageBox('PARABÉNS! UM VENCEDOR!','FINALMENTE UM GANHADOR',MB_ICONINFORMATION);
+              PlaySound('C:\Users\andre\Documents\GitHub\QuizDelphi\audio\aleluia.mp3',1,SND_ASYNC);
             end
          else
             begin

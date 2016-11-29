@@ -1,8 +1,10 @@
 object Form3: TForm3
-  Left = 690
-  Top = 296
-  Width = 808
-  Height = 575
+  Left = 1129
+  Top = 451
+  Width = 781
+  Height = 546
+  Align = alCustom
+  AutoSize = True
   Caption = 'Form3'
   Color = clGreen
   Font.Charset = DEFAULT_CHARSET
@@ -15,11 +17,11 @@ object Form3: TForm3
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 128
+    Left = 272
     Top = 72
-    Width = 265
+    Width = 238
     Height = 26
-    Caption = 'Pergunta 1/5: Level 1'
+    Caption = '1'#186' Level - Pergunta'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
@@ -28,13 +30,12 @@ object Form3: TForm3
     ParentFont = False
   end
   object RadioGroup1: TRadioGroup
-    Left = 128
+    Left = 176
     Top = 136
-    Width = 521
-    Height = 265
-    Caption = 
-      '----------------------------------------Quem matou Get'#250'lio Varga' +
-      's?'
+    Width = 449
+    Height = 297
+    BiDiMode = bdLeftToRight
+    Caption = 'Quem matou Get'#250'lio Vargas?'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -47,15 +48,16 @@ object Form3: TForm3
       'Fidel Castro'
       'Bush'
       'Um amigo')
+    ParentBiDiMode = False
     ParentFont = False
     TabOrder = 0
   end
   object Button1: TButton
-    Left = 456
-    Top = 264
+    Left = 488
+    Top = 248
     Width = 129
     Height = 49
-    Caption = 'Next'
+    Caption = 'OK'
     TabOrder = 1
     OnClick = Button1Click
   end

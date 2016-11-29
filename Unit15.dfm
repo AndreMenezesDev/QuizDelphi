@@ -1,6 +1,6 @@
 object Form15: TForm15
-  Left = -4
-  Top = -4
+  Left = -7
+  Top = 0
   Width = 808
   Height = 578
   Caption = 'Form15'
@@ -11,6 +11,7 @@ object Form15: TForm15
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
+  Position = poMainFormCenter
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
@@ -39,7 +40,7 @@ object Form15: TForm15
     Top = 296
     Width = 145
     Height = 49
-    Caption = 'Next Level'
+    Caption = 'Pr'#243'ximo N'#237'vel'
     Enabled = False
     TabOrder = 1
     OnClick = Button2Click
@@ -49,7 +50,7 @@ object Form15: TForm15
     Top = 296
     Width = 129
     Height = 49
-    Caption = 'tentar novamente'
+    Caption = 'Tentar Novamente'
     TabOrder = 2
     OnClick = Button3Click
   end

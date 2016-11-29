@@ -4,13 +4,13 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, Math;
+  Dialogs, StdCtrls, Math, jpeg, ExtCtrls;
 
 type
   TForm16 = class(TForm)
-    Label1: TLabel;
-    Label2: TLabel;
     Button1: TButton;
+    Label3: TLabel;
+    Image1: TImage;
     procedure Button1Click(Sender: TObject);
     procedure pergunta();
     procedure reiniciar();

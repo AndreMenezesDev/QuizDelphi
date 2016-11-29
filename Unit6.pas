@@ -9,8 +9,8 @@ uses
 type
   TForm6 = class(TForm)
     Label1: TLabel;
-    RadioGroup1: TRadioGroup;
-    Button1: TButton;
+    RadioGroup2: TRadioGroup;
+    Button2: TButton;
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
@@ -30,7 +30,7 @@ uses Unit2;
 procedure TForm6.Button1Click(Sender: TObject);
 begin
 
-case RadioGroup1.ItemIndex of
+case RadioGroup2.ItemIndex of
 
   0:
   begin
@@ -62,7 +62,7 @@ case RadioGroup1.ItemIndex of
      d:=0;
   end;
 end;
-  RadioGroup1.ItemIndex:= -1;
+  RadioGroup2.ItemIndex:= -1;
   Form2.pergunta;
   Form6.Close;
  end;

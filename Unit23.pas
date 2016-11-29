@@ -4,12 +4,11 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, jpeg, ExtCtrls;
+  Dialogs, StdCtrls, jpeg, ExtCtrls, MMSystem;
 
 type
   TForm23 = class(TForm)
     Image1: TImage;
-    Label1: TLabel;
     Label2: TLabel;
   private
     { Private declarations }
@@ -21,6 +20,8 @@ var
   Form23: TForm23;
 
 implementation
+
+
 
 {$R *.dfm}
 

@@ -1,6 +1,6 @@
 object Form14: TForm14
-  Left = -4
-  Top = -4
+  Left = -7
+  Top = 0
   Width = 808
   Height = 578
   Caption = 'Form14'
@@ -11,43 +11,51 @@ object Form14: TForm14
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
+  Position = poMainFormCenter
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 160
-    Top = 120
-    Width = 276
-    Height = 32
-    Caption = 'Pergunta 5/5: Level 2'
+    Left = 272
+    Top = 88
+    Width = 243
+    Height = 26
+    Caption = '2'#186' Level - Pergunta'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -27
-    Font.Name = 'Snap ITC'
-    Font.Style = [fsBold]
+    Font.Height = -19
+    Font.Name = 'Ravie'
+    Font.Style = []
     ParentFont = False
   end
-  object RadioGroup1: TRadioGroup
-    Left = 160
-    Top = 176
-    Width = 441
-    Height = 217
-    Caption = 
-      '--------------------------------------------A palavra "VIP" sign' +
-      'ifica: '
+  object RadioGroup2: TRadioGroup
+    Left = 176
+    Top = 152
+    Width = 449
+    Height = 297
+    BiDiMode = bdLeftToRight
+    Caption = 'Quem matou Get'#250'lio Vargas?'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
     Items.Strings = (
-      '"Very Important Person"'
-      '"Very Imponent Person"'
-      '"Very In Paris"'
-      '"Visit Institute Pisych"'
-      '"Viu In Pizza"')
+      'Hitller'
+      'Get'#250'lio Vargas mesmo'
+      'Uma amante'
+      'Fidel Castro'
+      'Bush'
+      'Um amigo')
+    ParentBiDiMode = False
+    ParentFont = False
     TabOrder = 0
   end
-  object Button1: TButton
-    Left = 392
-    Top = 272
+  object Button2: TButton
+    Left = 488
+    Top = 264
     Width = 129
-    Height = 41
-    Caption = 'Avante'
+    Height = 49
+    Caption = 'OK'
     TabOrder = 1
     OnClick = Button1Click
   end

@@ -1,6 +1,6 @@
 object Form22: TForm22
-  Left = -4
-  Top = -4
+  Left = -7
+  Top = 0
   Width = 808
   Height = 578
   Caption = 'Form22'
@@ -11,6 +11,7 @@ object Form22: TForm22
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
+  Position = poMainFormCenter
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
@@ -49,7 +50,7 @@ object Form22: TForm22
     Top = 304
     Width = 129
     Height = 49
-    Caption = 'tentar novamente'
+    Caption = 'Tentar Novamente'
     TabOrder = 2
     OnClick = Button3Click
   end

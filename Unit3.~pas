@@ -38,12 +38,12 @@ case RadioGroup1.ItemIndex of
 
   0:
   begin
-    a:=0;
+    a:=5;
   end;
 
   1:
   begin
-    a:=5;
+    a:=0;
   end;
 
   2:

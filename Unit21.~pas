@@ -23,7 +23,7 @@ var
   b5:real;
 implementation
 
-uses Unit22;
+uses Unit16;
 
 {$R *.dfm}
 
@@ -35,7 +35,7 @@ procedure TForm21.Button1Click(Sender: TObject);
 
               0:
               begin
-               b5:=10;
+               b5:=20;
               end;
 
               1:

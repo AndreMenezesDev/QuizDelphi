@@ -11,7 +11,6 @@ type
     Label1: TLabel;
     Button1: TButton;
     procedure Button1Click(Sender: TObject);
-    procedure FormCreate(Sender: TObject);
     procedure pergunta();
     procedure reiniciar();
 
@@ -31,16 +30,6 @@ implementation
 uses Unit10, Unit11, Unit12, Unit13, Unit14, Unit15;
 
 {$R *.dfm}
-
-procedure TForm9.FormCreate(Sender: TObject);
-begin
-     v1:=true;
-     v2:=true;
-     v3:=true;
-     v4:=true;
-     v5:=true;
-
-end;
 
 procedure TForm9.Button1Click(Sender: TObject);
 begin

@@ -1,6 +1,6 @@
 object Form4: TForm4
-  Left = 399
-  Top = 309
+  Left = 308
+  Top = 429
   Width = 808
   Height = 578
   Caption = 'Form4'
@@ -15,44 +15,47 @@ object Form4: TForm4
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 176
-    Top = 96
-    Width = 292
-    Height = 31
-    Caption = 'Pergunta 2/5: Level1'
+    Left = 272
+    Top = 88
+    Width = 238
+    Height = 26
+    Caption = '1'#186' Level - Pergunta'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -24
-    Font.Name = 'Snap ITC'
+    Font.Height = -19
+    Font.Name = 'Ravie'
     Font.Style = []
     ParentFont = False
   end
-  object RadioGroup1: TRadioGroup
+  object RadioGroup2: TRadioGroup
     Left = 176
     Top = 152
-    Width = 465
-    Height = 225
-    Caption = '------------------------------Quantos dedos t'#234'm 10 Lulas?'
+    Width = 449
+    Height = 297
+    BiDiMode = bdLeftToRight
+    Caption = 'Quem matou Get'#250'lio Vargas?'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -12
-    Font.Name = 'Arial Black'
-    Font.Style = []
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
     Items.Strings = (
-      '200'
-      '100'
-      '75'
-      '190'
-      '9')
+      'Hitller'
+      'Get'#250'lio Vargas mesmo'
+      'Uma amante'
+      'Fidel Castro'
+      'Bush'
+      'Um amigo')
+    ParentBiDiMode = False
     ParentFont = False
     TabOrder = 0
   end
-  object Button1: TButton
-    Left = 352
-    Top = 232
-    Width = 121
-    Height = 57
-    Caption = 'Hajime'
+  object Button2: TButton
+    Left = 488
+    Top = 264
+    Width = 129
+    Height = 49
+    Caption = 'OK'
     TabOrder = 1
     OnClick = Button1Click
   end

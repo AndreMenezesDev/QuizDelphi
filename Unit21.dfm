@@ -1,6 +1,6 @@
 object Form21: TForm21
-  Left = -4
-  Top = -4
+  Left = -7
+  Top = 0
   Width = 808
   Height = 578
   Caption = 'Form21'
@@ -11,43 +11,51 @@ object Form21: TForm21
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
+  Position = poMainFormCenter
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 160
-    Top = 104
-    Width = 265
-    Height = 24
-    Caption = 'Pergunta 5/5: Level 3 FINAL'
+    Left = 272
+    Top = 88
+    Width = 244
+    Height = 26
+    Caption = '3'#186' Level - Pergunta'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -21
-    Font.Name = 'Snap ITC'
+    Font.Height = -19
+    Font.Name = 'Ravie'
     Font.Style = []
     ParentFont = False
   end
-  object RadioGroup1: TRadioGroup
-    Left = 160
+  object RadioGroup2: TRadioGroup
+    Left = 176
     Top = 152
-    Width = 489
-    Height = 217
-    Caption = 
-      '-------------------------------------Qual formula quimica do alc' +
-      'ool et'#237'lico?'
+    Width = 449
+    Height = 297
+    BiDiMode = bdLeftToRight
+    Caption = '3'#186' Level - Pergunta'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
     Items.Strings = (
-      'C8H5O2'
-      'C2H6O'
-      'C2H006'
-      'CHO'
-      'C2HO6')
+      'Hitller'
+      'Get'#250'lio Vargas mesmo'
+      'Uma amante'
+      'Fidel Castro'
+      'Bush'
+      'Um amigo')
+    ParentBiDiMode = False
+    ParentFont = False
     TabOrder = 0
   end
-  object Button1: TButton
-    Left = 424
-    Top = 248
-    Width = 121
-    Height = 41
-    Caption = 'Avante'
+  object Button2: TButton
+    Left = 488
+    Top = 264
+    Width = 129
+    Height = 49
+    Caption = 'OK'
     TabOrder = 1
     OnClick = Button1Click
   end

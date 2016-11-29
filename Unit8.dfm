@@ -40,7 +40,7 @@ object Form8: TForm8
     Top = 312
     Width = 161
     Height = 41
-    Caption = 'Next N'#237'vel'
+    Caption = 'Pr'#243'ximo N'#237'vel'
     Enabled = False
     TabOrder = 1
     OnClick = Button2Click
@@ -48,9 +48,9 @@ object Form8: TForm8
   object Button3: TButton
     Left = 312
     Top = 312
-    Width = 97
+    Width = 105
     Height = 41
-    Caption = 'tentar novamente'
+    Caption = 'Tentar Novamente'
     TabOrder = 2
     OnClick = Button3Click
   end

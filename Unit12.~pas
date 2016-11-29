@@ -35,7 +35,7 @@ procedure TForm12.Button1Click(Sender: TObject);
 
               0:
               begin
-               a3:=0;
+               a3:=10;
               end;
 
               1:
@@ -45,7 +45,7 @@ procedure TForm12.Button1Click(Sender: TObject);
 
               2:
               begin
-                a3:=10;
+                a3:=0;
               end;
 
               3:
