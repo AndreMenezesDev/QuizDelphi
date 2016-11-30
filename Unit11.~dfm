@@ -1,6 +1,6 @@
 object Form11: TForm11
-  Left = -4
-  Top = -4
+  Left = -7
+  Top = 0
   Width = 808
   Height = 578
   Caption = 'Form11'
@@ -11,43 +11,51 @@ object Form11: TForm11
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
+  Position = poMainFormCenter
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 152
-    Top = 104
-    Width = 375
-    Height = 37
-    Caption = 'Pergunta 2/5: Level 2'
+    Left = 272
+    Top = 88
+    Width = 243
+    Height = 26
+    Caption = '2'#186' Level - Pergunta'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -29
-    Font.Name = 'Snap ITC'
+    Font.Height = -19
+    Font.Name = 'Ravie'
     Font.Style = []
     ParentFont = False
   end
-  object RadioGroup1: TRadioGroup
-    Left = 152
-    Top = 160
-    Width = 473
-    Height = 249
-    Caption = 
-      '---------------------Quem fez a abertura do show do Nirvana no H' +
-      'ollywood Rock 1993?'
+  object RadioGroup2: TRadioGroup
+    Left = 176
+    Top = 152
+    Width = 449
+    Height = 297
+    BiDiMode = bdLeftToRight
+    Caption = 'Quem matou Get'#250'lio Vargas?'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
     Items.Strings = (
-      'C'#225'ssia Eller'
-      'Tit'#227's'
-      'Mamonas Assassinas'
-      'Capital Inicial'
-      'Engenheiros do Hawaii')
+      'Hitller'
+      'Get'#250'lio Vargas mesmo'
+      'Uma amante'
+      'Fidel Castro'
+      'Bush'
+      'Um amigo')
+    ParentBiDiMode = False
+    ParentFont = False
     TabOrder = 0
   end
-  object Button1: TButton
-    Left = 392
+  object Button2: TButton
+    Left = 488
     Top = 264
-    Width = 113
-    Height = 41
-    Caption = 'Avante'
+    Width = 129
+    Height = 49
+    Caption = 'OK'
     TabOrder = 1
     OnClick = Button1Click
   end

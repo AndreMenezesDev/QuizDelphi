@@ -38,7 +38,7 @@ case RadioGroup1.ItemIndex of
 
   0:
   begin
-    a:=5;
+    a:=0;
   end;
 
   1:
@@ -53,22 +53,17 @@ case RadioGroup1.ItemIndex of
 
   3:
   begin
-     a:=0;
+     a:=5;
   end;
 
-  4:
-  begin
-     a:=0;
   end;
 
-  5:
-  begin
-     a:=0;
-  end;
-end;
-  RadioGroup1.ItemIndex:= -1;
+  RadioGroup1.ItemIndex:=-1;
   Form2.pergunta;
   Form3.Close;
 
  end;
+
+end.
+
 end.

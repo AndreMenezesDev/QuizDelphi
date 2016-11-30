@@ -14,17 +14,17 @@ object Form4: TForm4
   Position = poMainFormCenter
   PixelsPerInch = 96
   TextHeight = 13
-  object Label1: TLabel
-    Left = 272
-    Top = 88
-    Width = 238
-    Height = 26
-    Caption = '1'#186' Level - Pergunta'
+  object Label2: TLabel
+    Left = 176
+    Top = 80
+    Width = 472
+    Height = 31
+    Caption = '1'#186' Level - Tema Homem Naturaza Sociedade'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -19
-    Font.Name = 'Ravie'
-    Font.Style = []
+    Font.Height = -23
+    Font.Name = 'Palatino Linotype'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object RadioGroup2: TRadioGroup
@@ -33,19 +33,17 @@ object Form4: TForm4
     Width = 449
     Height = 297
     BiDiMode = bdLeftToRight
-    Caption = 'Quem matou Get'#250'lio Vargas?'
+    Caption = 'O que '#233' um bunker obsoleto?'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Arial'
     Font.Style = [fsBold]
     Items.Strings = (
-      'Hitller'
-      'Get'#250'lio Vargas mesmo'
-      'Uma amante'
-      'Fidel Castro'
-      'Bush'
-      'Um amigo')
+      'Abrigo Ultrapassado'
+      'Abrigo'
+      'Coisa antiguada'
+      'Deixado de lado')
     ParentBiDiMode = False
     ParentFont = False
     TabOrder = 0

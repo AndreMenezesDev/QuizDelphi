@@ -14,17 +14,17 @@ object Form18: TForm18
   Position = poMainFormCenter
   PixelsPerInch = 96
   TextHeight = 13
-  object Label1: TLabel
-    Left = 272
+  object Label2: TLabel
+    Left = 176
     Top = 88
-    Width = 244
-    Height = 26
-    Caption = '3'#186' Level - Pergunta'
+    Width = 472
+    Height = 31
+    Caption = '3'#186' Level - Tema Homem Naturaza Sociedade'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -19
-    Font.Name = 'Ravie'
-    Font.Style = []
+    Font.Height = -23
+    Font.Name = 'Palatino Linotype'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object RadioGroup2: TRadioGroup
@@ -33,19 +33,17 @@ object Form18: TForm18
     Width = 449
     Height = 297
     BiDiMode = bdLeftToRight
-    Caption = '3'#186' Level - Pergunta'
+    Caption = 'O que '#233' Multiplicidade de Facetas?'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Arial'
     Font.Style = [fsBold]
     Items.Strings = (
-      'Hitller'
-      'Get'#250'lio Vargas mesmo'
-      'Uma amante'
-      'Fidel Castro'
-      'Bush'
-      'Um amigo')
+      'Pe'#231'a de teatro'
+      'Pap'#233'is aplicados no meio social'
+      'V'#225'rias caretas'
+      'Festival Mexicano')
     ParentBiDiMode = False
     ParentFont = False
     TabOrder = 0

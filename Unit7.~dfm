@@ -1,6 +1,6 @@
 object Form7: TForm7
-  Left = 612
-  Top = 18
+  Left = 1098
+  Top = 11
   Width = 808
   Height = 578
   Caption = 'Form7'
@@ -15,38 +15,47 @@ object Form7: TForm7
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 144
-    Top = 112
-    Width = 294
-    Height = 31
-    Caption = 'Pergunta 5/5: Level1'
+    Left = 272
+    Top = 88
+    Width = 238
+    Height = 26
+    Caption = '1'#186' Level - Pergunta'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -24
-    Font.Name = 'Snap ITC'
+    Font.Height = -19
+    Font.Name = 'Ravie'
     Font.Style = []
     ParentFont = False
   end
-  object RadioGroup1: TRadioGroup
-    Left = 144
-    Top = 160
+  object RadioGroup2: TRadioGroup
+    Left = 176
+    Top = 152
     Width = 449
-    Height = 225
-    Caption = 'Qual a tradu'#231#227'o da palavra em Ingl'#234's DOG para o Portugu'#234's?'
+    Height = 297
+    BiDiMode = bdLeftToRight
+    Caption = 'Quem matou Get'#250'lio Vargas?'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
     Items.Strings = (
-      'Mam'#227'o'
-      'Vaca'
-      'Cachorro Quente'
-      'C'#227'o'
-      'Galinha')
+      'Hitller'
+      'Get'#250'lio Vargas mesmo'
+      'Uma amante'
+      'Fidel Castro'
+      'Bush'
+      'Um amigo')
+    ParentBiDiMode = False
+    ParentFont = False
     TabOrder = 0
   end
-  object Button1: TButton
-    Left = 368
-    Top = 256
-    Width = 113
-    Height = 41
-    Caption = 'Avante'
+  object Button2: TButton
+    Left = 488
+    Top = 264
+    Width = 129
+    Height = 49
+    Caption = 'OK'
     TabOrder = 1
     OnClick = Button1Click
   end

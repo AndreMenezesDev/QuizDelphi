@@ -17,44 +17,44 @@ object Form3: TForm3
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 272
+    Left = 296
     Top = 72
-    Width = 238
-    Height = 26
-    Caption = '1'#186' Level - Pergunta'
+    Width = 237
+    Height = 31
+    Caption = '1'#186' Level - Tema L'#243'gica'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -19
-    Font.Name = 'Ravie'
-    Font.Style = []
+    Font.Height = -23
+    Font.Name = 'Palatino Linotype'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object RadioGroup1: TRadioGroup
     Left = 176
     Top = 136
-    Width = 449
+    Width = 537
     Height = 297
     BiDiMode = bdLeftToRight
-    Caption = 'Quem matou Get'#250'lio Vargas?'
+    Caption = 
+      'Assinale a alternativa que n'#227'o cont'#233'm uma regra para nomea'#231#227'o de' +
+      ' vari'#225'veis:'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Arial'
     Font.Style = [fsBold]
     Items.Strings = (
-      'Hitller'
-      'Get'#250'lio Vargas mesmo'
-      'Uma amante'
-      'Fidel Castro'
-      'Bush'
-      'Um amigo')
+      'N'#227'o pode ser palavra reservada.'
+      'Os espa'#231'os devem ser dados por underline.'
+      'N'#227'o pode haver espa'#231'o.'
+      'N'#227'o pode ter n'#250'meros.')
     ParentBiDiMode = False
     ParentFont = False
     TabOrder = 0
   end
   object Button1: TButton
-    Left = 488
-    Top = 248
+    Left = 552
+    Top = 240
     Width = 129
     Height = 49
     Caption = 'OK'
