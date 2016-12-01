@@ -38,10 +38,10 @@ object Form1: TForm1
   object Label2: TLabel
     Left = 219
     Top = 557
-    Width = 503
+    Width = 508
     Height = 26
     Anchors = []
-    Caption = 'Equipe: Andr'#233', Beatriz, Kaeel, Thaisa, Rog'#233'rio, Matheus'
+    Caption = 'Equipe: Andr'#233', Beatriz, Kaeel, Thaisa, Rog'#233'rio, Matheus.'
     Font.Charset = ANSI_CHARSET
     Font.Color = clSilver
     Font.Height = -19
