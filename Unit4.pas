@@ -11,6 +11,7 @@ type
     RadioGroup2: TRadioGroup;
     Button2: TButton;
     Label2: TLabel;
+    Label1: TLabel;
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
@@ -40,16 +41,19 @@ case RadioGroup2.ItemIndex of
   1:
   begin
     b:=0;
+    ShowMessage('Errou!');
   end;
 
   2:
   begin
      b:=0;
+     ShowMessage('Errou!');
   end;
 
   3:
   begin
      b:=0;
+     ShowMessage('Errou!');
   end;
 
 end;

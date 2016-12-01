@@ -1,8 +1,8 @@
 object Form17: TForm17
   Left = -7
   Top = 0
-  Width = 808
-  Height = 578
+  Width = 1016
+  Height = 679
   Caption = 'Form17'
   Color = clGreen
   Font.Charset = DEFAULT_CHARSET
@@ -15,8 +15,8 @@ object Form17: TForm17
   PixelsPerInch = 96
   TextHeight = 13
   object Label2: TLabel
-    Left = 280
-    Top = 88
+    Left = 408
+    Top = 112
     Width = 237
     Height = 31
     Caption = '3'#186' Level - Tema L'#243'gica'
@@ -27,13 +27,29 @@ object Form17: TForm17
     Font.Style = [fsBold]
     ParentFont = False
   end
+  object Label1: TLabel
+    Left = 424
+    Top = 160
+    Width = 201
+    Height = 25
+    AutoSize = False
+    Caption = 'O que '#233' "Pseudoc'#243'digo"?'
+    Color = clGreen
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindow
+    Font.Height = -15
+    Font.Name = '@Arial Unicode MS'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+  end
   object RadioGroup2: TRadioGroup
-    Left = 176
-    Top = 152
-    Width = 561
+    Left = 56
+    Top = 192
+    Width = 873
     Height = 297
     BiDiMode = bdLeftToRight
-    Caption = 'O que '#233' "Pseudoc'#243'digo"?'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -51,8 +67,8 @@ object Form17: TForm17
     TabOrder = 0
   end
   object Button2: TButton
-    Left = 568
-    Top = 248
+    Left = 752
+    Top = 424
     Width = 129
     Height = 49
     Caption = 'OK'

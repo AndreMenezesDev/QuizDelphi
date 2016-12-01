@@ -1,6 +1,6 @@
 object Form14: TForm14
-  Left = -7
-  Top = 0
+  Left = 848
+  Top = 68
   Width = 808
   Height = 578
   Caption = 'Form14'
@@ -15,44 +15,60 @@ object Form14: TForm14
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 272
-    Top = 88
-    Width = 243
-    Height = 26
-    Caption = '2'#186' Level - Pergunta'
+    Left = 168
+    Top = 72
+    Width = 441
+    Height = 31
+    Align = alCustom
+    Alignment = taCenter
+    Caption = '2'#186' Level - Tema Comunica'#231#227'o e Express'#227'o'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -19
-    Font.Name = 'Ravie'
-    Font.Style = []
+    Font.Height = -23
+    Font.Name = 'Palatino Linotype'
+    Font.Style = [fsBold]
     ParentFont = False
   end
-  object RadioGroup2: TRadioGroup
+  object Label2: TLabel
     Left = 176
-    Top = 152
+    Top = 128
     Width = 449
+    Height = 25
+    AutoSize = False
+    Caption = 'A coloca'#231#227'o do pronome obl'#237'quo est'#225' INCORRETA em:'
+    Color = clGreen
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindow
+    Font.Height = -15
+    Font.Name = '@Arial Unicode MS'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+  end
+  object RadioGroup2: TRadioGroup
+    Left = 160
+    Top = 152
+    Width = 465
     Height = 297
     BiDiMode = bdLeftToRight
-    Caption = 'Quem matou Get'#250'lio Vargas?'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Arial'
     Font.Style = [fsBold]
     Items.Strings = (
-      'Hitller'
-      'Get'#250'lio Vargas mesmo'
-      'Uma amante'
-      'Fidel Castro'
-      'Bush'
-      'Um amigo')
+      'Para n'#227'o aborrec'#234'-lo, tive de sair.'
+      'Quando sentiu-se em dificuldade, pediu ajuda.'
+      'N'#227'o me submeterei aos seus caprichos.'
+      'Ele me olhou algum tempo comovido.')
     ParentBiDiMode = False
     ParentFont = False
     TabOrder = 0
   end
   object Button2: TButton
     Left = 488
-    Top = 264
+    Top = 376
     Width = 129
     Height = 49
     Caption = 'OK'

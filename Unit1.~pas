@@ -25,7 +25,6 @@ type
 
 var
   Form1: TForm1;
-  cont:integer;
 implementation
 
 uses Unit2;
@@ -34,7 +33,6 @@ uses Unit2;
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-		cont:=0;
   	Form2.Show;
 
 end;

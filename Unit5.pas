@@ -35,33 +35,27 @@ case RadioGroup2.ItemIndex of
 
   0:
   begin
-    c:=5;
+    c:=0;
+    ShowMessage('Errou!');
   end;
-
+                                                                                          
   1:
   begin
     c:=0;
+    ShowMessage('Errou!');
   end;
 
   2:
   begin
      c:=0;
+     ShowMessage('Errou!');
   end;
 
   3:
   begin
-     c:=0;
+     c:=5;
   end;
 
-  4:
-  begin
-     c:=0;
-  end;
-
-  5:
-  begin
-     c:=0;
-  end;
 end;
   RadioGroup2.ItemIndex:= -1;
   Form2.pergunta;

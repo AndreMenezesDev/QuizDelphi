@@ -1,8 +1,8 @@
 object Form23: TForm23
-  Left = 561
-  Top = 225
-  Width = 800
-  Height = 486
+  Left = 368
+  Top = 43
+  Width = 1139
+  Height = 864
   Caption = 'Form23'
   Color = clWhite
   Font.Charset = DEFAULT_CHARSET
@@ -13,15 +13,15 @@ object Form23: TForm23
   OldCreateOrder = False
   Position = poMainFormCenter
   DesignSize = (
-    784
-    451)
+    1123
+    829)
   PixelsPerInch = 96
   TextHeight = 13
   object Image1: TImage
-    Left = 200
-    Top = 120
-    Width = 369
-    Height = 281
+    Left = 312
+    Top = 280
+    Width = 553
+    Height = 417
     Picture.Data = {
       0A544A504547496D61676524CC0200FFD8FFE000104A46494600010101006000
       600000FFE100684578696600004D4D002A000000080004011A00050000000100
@@ -5756,13 +5756,16 @@ object Form23: TForm23
     Proportional = True
   end
   object Label2: TLabel
-    Left = 136
-    Top = 40
-    Width = 502
-    Height = 72
+    Left = 326
+    Top = 192
+    Width = 515
+    Height = 81
     Alignment = taCenter
-    Anchors = [akLeft, akTop, akRight, akBottom]
-    Caption = '      PARAB'#201'NS!!              Voc'#234' ganhou 1 milh'#227'o e meio'
+    Anchors = []
+    AutoSize = False
+    Caption = 
+      '              PARAB'#201'NS!!              Voc'#234' ganhou 1 milh'#227'o e mei' +
+      'o'
     Color = clWhite
     Font.Charset = ANSI_CHARSET
     Font.Color = clLime

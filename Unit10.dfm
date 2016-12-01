@@ -1,6 +1,6 @@
 object Form10: TForm10
-  Left = -7
-  Top = 0
+  Left = 758
+  Top = 31
   Width = 808
   Height = 578
   Caption = 'Form10'
@@ -16,7 +16,7 @@ object Form10: TForm10
   TextHeight = 13
   object Label2: TLabel
     Left = 272
-    Top = 88
+    Top = 64
     Width = 237
     Height = 31
     Caption = '2'#186' Level - Tema L'#243'gica'
@@ -27,13 +27,29 @@ object Form10: TForm10
     Font.Style = [fsBold]
     ParentFont = False
   end
+  object Label1: TLabel
+    Left = 176
+    Top = 128
+    Width = 449
+    Height = 25
+    AutoSize = False
+    Caption = 'Na programa'#231#227'o, onde as vari'#225'veis ficam armazenadas?'
+    Color = clGreen
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindow
+    Font.Height = -15
+    Font.Name = '@Arial Unicode MS'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+  end
   object RadioGroup2: TRadioGroup
     Left = 176
     Top = 152
     Width = 449
     Height = 297
     BiDiMode = bdLeftToRight
-    Caption = 'Onde as vari'#225'veis ficam armazenadas?'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13

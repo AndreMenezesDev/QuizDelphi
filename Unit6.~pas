@@ -62,7 +62,7 @@ case RadioGroup2.ItemIndex of
      d:=0;
   end;
 end;
-  RadioGroup1.ItemIndex:= -1;
+  RadioGroup2.ItemIndex:= -1;
   Form2.pergunta;
   Form6.Close;
  end;

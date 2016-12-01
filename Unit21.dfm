@@ -15,44 +15,64 @@ object Form21: TForm21
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 272
-    Top = 88
-    Width = 244
-    Height = 26
-    Caption = '3'#186' Level - Pergunta'
+    Left = 168
+    Top = 72
+    Width = 441
+    Height = 31
+    Align = alCustom
+    Alignment = taCenter
+    Caption = '3'#186' Level - Tema Comunica'#231#227'o e Express'#227'o'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -19
-    Font.Name = 'Ravie'
-    Font.Style = []
+    Font.Height = -23
+    Font.Name = 'Palatino Linotype'
+    Font.Style = [fsBold]
     ParentFont = False
   end
+  object Label2: TLabel
+    Left = 104
+    Top = 112
+    Width = 577
+    Height = 41
+    AutoSize = False
+    Caption = 
+      'Marque a alternativa que N'#195'O apresenta palavra com sentido conot' +
+      'ativo(figurado):'
+    Color = clGreen
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindow
+    Font.Height = -15
+    Font.Name = '@Arial Unicode MS'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+  end
   object RadioGroup2: TRadioGroup
-    Left = 176
+    Left = 104
     Top = 152
-    Width = 449
+    Width = 585
     Height = 297
     BiDiMode = bdLeftToRight
-    Caption = '3'#186' Level - Pergunta'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Arial'
     Font.Style = [fsBold]
     Items.Strings = (
-      'Hitller'
-      'Get'#250'lio Vargas mesmo'
-      'Uma amante'
-      'Fidel Castro'
-      'Bush'
-      'Um amigo')
+      
+        'Ela n'#227'o foi ao cinema com o namorado porque estava at'#233' o tucupi ' +
+        'de trabalho.'
+      'Ele est'#225' precisando de um bico para poder pagar as contas.'
+      'Quando chegou em casa, a '#225'gua estava cortada.'
+      'A infla'#231#227'o tem aumentado o pre'#231'o da cesta b'#225'sica.')
     ParentBiDiMode = False
     ParentFont = False
     TabOrder = 0
   end
   object Button2: TButton
-    Left = 488
-    Top = 264
+    Left = 544
+    Top = 384
     Width = 129
     Height = 49
     Caption = 'OK'

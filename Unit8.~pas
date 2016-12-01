@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, MMSystem;
+  Dialogs, StdCtrls;
 
 type
   TForm8 = class(TForm)
@@ -39,7 +39,6 @@ Label1.caption:=FloatToStr(resultado);
   	begin
  	   Button2.enabled:=true;
  	   Application.MessageBox('PARABÉNS!! VOCÊ PASSOU PARA O PRÓXIMO NÍVEL','VOCÊ ACERTOU TUDO',MB_ICONINFORMATION);
-     sndPlaySound('audio\aleluia.wav',SND_ASYNC);
 	  end
  else
   begin

@@ -1,6 +1,6 @@
 object Form6: TForm6
-  Left = 599
-  Top = 142
+  Left = 218
+  Top = 320
   Width = 808
   Height = 578
   Caption = 'Form6'
@@ -15,44 +15,60 @@ object Form6: TForm6
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 272
-    Top = 88
-    Width = 238
-    Height = 26
-    Caption = '1'#186' Level - Pergunta'
+    Left = 200
+    Top = 72
+    Width = 401
+    Height = 31
+    Caption = '1'#186' Level - Tema Introdu'#231#227'o ao C'#225'lculo'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -19
-    Font.Name = 'Ravie'
-    Font.Style = []
+    Font.Height = -23
+    Font.Name = 'Palatino Linotype'
+    Font.Style = [fsBold]
     ParentFont = False
   end
-  object RadioGroup2: TRadioGroup
-    Left = 176
-    Top = 152
+  object Label2: TLabel
+    Left = 136
+    Top = 136
     Width = 449
+    Height = 24
+    AutoSize = False
+    Caption = 'Qual a correta defini'#231#227'o de "Fun'#231#227'o"?'
+    Color = clGreen
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindow
+    Font.Height = -12
+    Font.Name = '@Arial Unicode MS'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+  end
+  object RadioGroup2: TRadioGroup
+    Left = 136
+    Top = 152
+    Width = 569
     Height = 297
     BiDiMode = bdLeftToRight
-    Caption = 'Quem matou Get'#250'lio Vargas?'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Arial'
     Font.Style = [fsBold]
     Items.Strings = (
-      'Hitller'
-      'Get'#250'lio Vargas mesmo'
-      'Uma amante'
-      'Fidel Castro'
-      'Bush'
-      'Um amigo')
+      'S'#227'o tarefas '#224' serem feitas'
+      
+        'S'#227'o elementos de um conjunto A que possuem '#250'nico elemento em con' +
+        'junto B'
+      'S'#227'o deveres que devem ser realizado por algu'#233'm'
+      #201' um cargo')
     ParentBiDiMode = False
     ParentFont = False
     TabOrder = 0
   end
   object Button2: TButton
-    Left = 488
-    Top = 264
+    Left = 560
+    Top = 376
     Width = 129
     Height = 49
     Caption = 'OK'

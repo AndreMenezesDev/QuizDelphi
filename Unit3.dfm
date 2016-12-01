@@ -29,15 +29,31 @@ object Form3: TForm3
     Font.Style = [fsBold]
     ParentFont = False
   end
-  object RadioGroup1: TRadioGroup
+  object Label2: TLabel
     Left = 176
-    Top = 136
-    Width = 537
-    Height = 297
-    BiDiMode = bdLeftToRight
+    Top = 128
+    Width = 497
+    Height = 41
+    AutoSize = False
     Caption = 
       'Assinale a alternativa que n'#227'o cont'#233'm uma regra para nomea'#231#227'o de' +
       ' vari'#225'veis:'
+    Color = clGreen
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindow
+    Font.Height = -12
+    Font.Name = '@Arial Unicode MS'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 176
+    Top = 160
+    Width = 537
+    Height = 273
+    BiDiMode = bdLeftToRight
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13

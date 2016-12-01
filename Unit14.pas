@@ -8,9 +8,10 @@ uses
 
 type
   TForm14 = class(TForm)
-    Label1: TLabel;
     RadioGroup2: TRadioGroup;
     Button2: TButton;
+    Label1: TLabel;
+    Label2: TLabel;
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
@@ -41,21 +42,19 @@ procedure TForm14.Button1Click(Sender: TObject);
               1:
               begin
               	a5:=0;
+                ShowMessage('Errou!');
               end;
 
               2:
               begin
                 a5:=0;
+                ShowMessage('Errou!');
               end;
 
               3:
               begin
         				a5:=0;
-              end;
-
-              4:
-              begin
-              	a5:=0;
+                ShowMessage('Errou!');
               end;
 
         end;

@@ -8,10 +8,12 @@ uses
 
 type
   TForm6 = class(TForm)
-    Label1: TLabel;
     RadioGroup2: TRadioGroup;
     Button2: TButton;
+    Label1: TLabel;
+    Label2: TLabel;
     procedure Button1Click(Sender: TObject);
+
   private
     { Private declarations }
   public
@@ -34,36 +36,31 @@ case RadioGroup2.ItemIndex of
 
   0:
   begin
-    d:=5;
+    d:=0;
+    ShowMessage('Errou!');
   end;
 
   1:
   begin
-    d:=0;
+    d:=5;
   end;
 
   2:
   begin
      d:=0;
+     ShowMessage('Errou!');
   end;
 
   3:
   begin
      d:=0;
+     ShowMessage('Errou!');
   end;
 
-  4:
-  begin
-     d:=0;
-  end;
-
-  5:
-  begin
-     d:=0;
-  end;
 end;
   RadioGroup2.ItemIndex:= -1;
   Form2.pergunta;
   Form6.Close;
  end;
+
 end.

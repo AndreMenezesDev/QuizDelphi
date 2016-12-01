@@ -1,6 +1,6 @@
 object Form18: TForm18
-  Left = -7
-  Top = 0
+  Left = 787
+  Top = 28
   Width = 808
   Height = 578
   Caption = 'Form18'
@@ -27,13 +27,29 @@ object Form18: TForm18
     Font.Style = [fsBold]
     ParentFont = False
   end
+  object Label1: TLabel
+    Left = 176
+    Top = 128
+    Width = 449
+    Height = 25
+    AutoSize = False
+    Caption = 'O que '#233' Multiplicidade de Facetas?'
+    Color = clGreen
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindow
+    Font.Height = -15
+    Font.Name = '@Arial Unicode MS'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+  end
   object RadioGroup2: TRadioGroup
     Left = 176
     Top = 152
     Width = 449
     Height = 297
     BiDiMode = bdLeftToRight
-    Caption = 'O que '#233' Multiplicidade de Facetas?'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13

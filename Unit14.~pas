@@ -9,8 +9,8 @@ uses
 type
   TForm14 = class(TForm)
     Label1: TLabel;
-    RadioGroup1: TRadioGroup;
-    Button1: TButton;
+    RadioGroup2: TRadioGroup;
+    Button2: TButton;
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
@@ -31,7 +31,7 @@ procedure TForm14.Button1Click(Sender: TObject);
 
     begin
 
-        case RadioGroup1.ItemIndex of
+        case RadioGroup2.ItemIndex of
 
               0:
               begin
@@ -60,7 +60,7 @@ procedure TForm14.Button1Click(Sender: TObject);
 
         end;
 
-    	RadioGroup1.ItemIndex:= -1;
+    	RadioGroup2.ItemIndex:= -1;
       Form9.pergunta;
       Form14.Close;
     end;

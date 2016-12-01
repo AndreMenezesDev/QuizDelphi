@@ -55,7 +55,7 @@ object Form6: TForm6
     Top = 264
     Width = 129
     Height = 49
-    Caption = 'Next'
+    Caption = 'OK'
     TabOrder = 1
     OnClick = Button1Click
   end

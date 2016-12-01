@@ -14,17 +14,17 @@ object Form10: TForm10
   Position = poMainFormCenter
   PixelsPerInch = 96
   TextHeight = 13
-  object Label1: TLabel
+  object Label2: TLabel
     Left = 272
     Top = 88
-    Width = 243
-    Height = 26
-    Caption = '2'#186' Level - Pergunta'
+    Width = 237
+    Height = 31
+    Caption = '2'#186' Level - Tema L'#243'gica'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -19
-    Font.Name = 'Ravie'
-    Font.Style = []
+    Font.Height = -23
+    Font.Name = 'Palatino Linotype'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object RadioGroup2: TRadioGroup
@@ -33,19 +33,17 @@ object Form10: TForm10
     Width = 449
     Height = 297
     BiDiMode = bdLeftToRight
-    Caption = 'Quem matou Get'#250'lio Vargas?'
+    Caption = 'Onde as vari'#225'veis ficam armazenadas?'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Arial'
     Font.Style = [fsBold]
     Items.Strings = (
-      'Hitller'
-      'Get'#250'lio Vargas mesmo'
-      'Uma amante'
-      'Fidel Castro'
-      'Bush'
-      'Um amigo')
+      'Na mem'#243'ria RAM do computador'
+      'Banco de dados'
+      'No programa / Software'
+      'No Banco de dados, software e na mem'#243'ria RAM')
     ParentBiDiMode = False
     ParentFont = False
     TabOrder = 0

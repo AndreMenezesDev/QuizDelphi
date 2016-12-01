@@ -1,6 +1,6 @@
 object Form5: TForm5
-  Left = 23
-  Top = 140
+  Left = 955
+  Top = 40
   Width = 808
   Height = 578
   Caption = 'Form5'
@@ -16,7 +16,7 @@ object Form5: TForm5
   TextHeight = 13
   object Label1: TLabel
     Left = 176
-    Top = 48
+    Top = 56
     Width = 454
     Height = 31
     Caption = '1'#186' Level - Tema Probabilidade && Estat'#237'stica'
@@ -29,16 +29,21 @@ object Form5: TForm5
   end
   object Label2: TLabel
     Left = 176
-    Top = 104
+    Top = 112
     Width = 449
-    Height = 52
+    Height = 41
+    AutoSize = False
     Caption = 
-      'Vinte esfirras fechadas, todas com a mesma forma, s'#227'o colocadas ' +
-      'em uma travessa; S'#227'o sete de queijo, nove de carne e quatro de e' +
-      'scarola. Algu'#233'm retira uma esfirra de travessa ao acasso. A prob' +
-      'abilidade de que seja retirada uma esfirra de queijo '#233': '
-    Color = clWhite
+      'Uma pequena parcela da popula'#231#227'o convenientemente escolhida para' +
+      ' representar o total '#233' chamada de: '
+    Color = clGreen
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindow
+    Font.Height = -15
+    Font.Name = '@Arial Unicode MS'
+    Font.Style = [fsBold]
     ParentColor = False
+    ParentFont = False
     WordWrap = True
   end
   object RadioGroup2: TRadioGroup
@@ -54,18 +59,17 @@ object Form5: TForm5
     Font.Name = 'Arial'
     Font.Style = [fsBold]
     Items.Strings = (
-      '0,65'
-      '0,6'
-      '0,5'
-      '0,55'
-      '0,35')
+      'Rol '
+      'Dados brutos '
+      'Vari'#225'vel '
+      'Amostra ')
     ParentBiDiMode = False
     ParentFont = False
     TabOrder = 0
     TabStop = True
   end
   object Button2: TButton
-    Left = 488
+    Left = 472
     Top = 264
     Width = 129
     Height = 49

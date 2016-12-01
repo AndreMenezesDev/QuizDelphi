@@ -1,6 +1,6 @@
 object Form12: TForm12
-  Left = -7
-  Top = 0
+  Left = 112
+  Top = 37
   Width = 808
   Height = 578
   Caption = 'Form12'
@@ -14,38 +14,52 @@ object Form12: TForm12
   Position = poMainFormCenter
   PixelsPerInch = 96
   TextHeight = 13
-  object Label1: TLabel
-    Left = 272
-    Top = 88
-    Width = 243
-    Height = 26
-    Caption = '2'#186' Level - Pergunta'
+  object Label2: TLabel
+    Left = 176
+    Top = 80
+    Width = 454
+    Height = 31
+    Caption = '2'#186' Level - Tema Probabilidade && Estat'#237'stica'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -19
-    Font.Name = 'Ravie'
-    Font.Style = []
+    Font.Height = -23
+    Font.Name = 'Palatino Linotype'
+    Font.Style = [fsBold]
     ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 176
+    Top = 136
+    Width = 449
+    Height = 25
+    AutoSize = False
+    Caption = #201' dada a amostra: 50, 53, 53, 47, 47. A vari'#226'ncia '#233':'
+    Color = clGreen
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindow
+    Font.Height = -12
+    Font.Name = '@Arial Unicode MS'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
   end
   object RadioGroup2: TRadioGroup
     Left = 176
-    Top = 152
+    Top = 160
     Width = 449
     Height = 297
     BiDiMode = bdLeftToRight
-    Caption = 'Quem matou Get'#250'lio Vargas?'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Arial'
     Font.Style = [fsBold]
     Items.Strings = (
-      'Hitller'
-      'Get'#250'lio Vargas mesmo'
-      'Uma amante'
-      'Fidel Castro'
-      'Bush'
-      'Um amigo')
+      '4 '
+      '3 '
+      '16 '
+      '50')
     ParentBiDiMode = False
     ParentFont = False
     TabOrder = 0

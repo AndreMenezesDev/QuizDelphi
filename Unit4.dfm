@@ -16,7 +16,7 @@ object Form4: TForm4
   TextHeight = 13
   object Label2: TLabel
     Left = 176
-    Top = 80
+    Top = 72
     Width = 472
     Height = 31
     Caption = '1'#186' Level - Tema Homem Naturaza Sociedade'
@@ -27,13 +27,29 @@ object Form4: TForm4
     Font.Style = [fsBold]
     ParentFont = False
   end
+  object Label1: TLabel
+    Left = 176
+    Top = 136
+    Width = 497
+    Height = 25
+    AutoSize = False
+    Caption = 'O que '#233' um bunker obsoleto?'
+    Color = clGreen
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindow
+    Font.Height = -12
+    Font.Name = '@Arial Unicode MS'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+  end
   object RadioGroup2: TRadioGroup
     Left = 176
     Top = 152
     Width = 449
     Height = 297
     BiDiMode = bdLeftToRight
-    Caption = 'O que '#233' um bunker obsoleto?'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13

@@ -56,7 +56,7 @@ end;
  begin
  controle:=true;
 
-    x:= RandomRange(0,5);
+    x:= RandomRange(-1,5);
 
    if (v1=false) and (v2=false) and (v3=false) and (v4=false) and (v5=false) then
      		begin

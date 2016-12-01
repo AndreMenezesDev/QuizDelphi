@@ -1,6 +1,6 @@
 object Form7: TForm7
-  Left = 1098
-  Top = 11
+  Left = 25
+  Top = 68
   Width = 808
   Height = 578
   Caption = 'Form7'
@@ -15,37 +15,58 @@ object Form7: TForm7
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 272
-    Top = 88
-    Width = 238
-    Height = 26
-    Caption = '1'#186' Level - Pergunta'
+    Left = 168
+    Top = 40
+    Width = 464
+    Height = 33
+    Align = alCustom
+    Alignment = taCenter
+    Caption = '1'#186' Level - Tema Comunica'#231#227'o e Express'#227'o'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -19
-    Font.Name = 'Ravie'
-    Font.Style = []
+    Font.Height = -23
+    Font.Name = 'Palatino Linotype'
+    Font.Style = [fsBold]
     ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 176
+    Top = 96
+    Width = 449
+    Height = 129
+    AutoSize = False
+    Caption = 
+      '"O receptor '#233' o foco da comunica'#231#227'o, pois a mensagem visa a conv' +
+      'enc'#234'-lo, influenci'#225'-lo, determinar o seu comportamento. Caracter' +
+      'izam essa fun'#231#227'o o imperativo, forma verbal que exprime ordem ou' +
+      ' exorta'#231#227'o, e o vocativo, que '#233' um apelo ou chamamento ao recept' +
+      'or". Esse texto trata-se da fun'#231#227'o lingu'#237'stica:'
+    Color = clGreen
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindow
+    Font.Height = -15
+    Font.Name = '@Arial Unicode MS'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
   end
   object RadioGroup2: TRadioGroup
     Left = 176
-    Top = 152
+    Top = 216
     Width = 449
     Height = 297
     BiDiMode = bdLeftToRight
-    Caption = 'Quem matou Get'#250'lio Vargas?'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Arial'
     Font.Style = [fsBold]
     Items.Strings = (
-      'Hitller'
-      'Get'#250'lio Vargas mesmo'
-      'Uma amante'
-      'Fidel Castro'
-      'Bush'
-      'Um amigo')
+      'Po'#233'tica'
+      'Conativa'
+      'Emotiva ou expressiva'
+      'F'#225'tica')
     ParentBiDiMode = False
     ParentFont = False
     TabOrder = 0

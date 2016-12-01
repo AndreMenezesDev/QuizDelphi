@@ -27,13 +27,29 @@ object Form11: TForm11
     Font.Style = [fsBold]
     ParentFont = False
   end
+  object Label1: TLabel
+    Left = 176
+    Top = 128
+    Width = 449
+    Height = 25
+    AutoSize = False
+    Caption = 'Conceito vago de Aura Est'#233'tica?'
+    Color = clGreen
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindow
+    Font.Height = -15
+    Font.Name = '@Arial Unicode MS'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+  end
   object RadioGroup2: TRadioGroup
     Left = 176
     Top = 152
     Width = 449
     Height = 297
     BiDiMode = bdLeftToRight
-    Caption = 'Conceito vago de Aura Est'#233'tica?'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -41,7 +57,7 @@ object Form11: TForm11
     Font.Style = [fsBold]
     Items.Strings = (
       'Um sentimento sentido em conjunto'
-      'Coisa que todos sentem'
+      'Coisa que uma pessoa sentem'
       'Fazer parte de um grupo social'
       'A lei do sil'#234'ncio')
     ParentBiDiMode = False

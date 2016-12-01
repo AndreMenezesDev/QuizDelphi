@@ -11,6 +11,7 @@ type
     RadioGroup2: TRadioGroup;
     Button2: TButton;
     Label2: TLabel;
+    Label1: TLabel;
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
@@ -41,16 +42,19 @@ procedure TForm11.Button1Click(Sender: TObject);
             1:
             begin
           	  a2:=0;
+              ShowMessage('Errou!');
             end;
 
             2:
             begin
            	 a2:=0;
+             ShowMessage('Errou!');
             end;
 
             3:
             begin
           	  a2:=0;
+              ShowMessage('Errou!');
             end;
 
       end;
